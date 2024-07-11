@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 COPY docker/deadsnakes.list /etc/apt/sources.list.d/deadsnakes.list
 
